@@ -18,3 +18,7 @@ const productSchema = zod.object({
 export const validateProduct = (object) => {
   return productSchema.safeParse(object);
 };
+
+export const validatePartialProduct = (object) => {
+  return productSchema.partial().safeParse(object);
+};
