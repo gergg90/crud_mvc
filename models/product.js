@@ -25,7 +25,7 @@ export class ProductModel {
     return newProduct;
   };
 
-  static findByIndex = async ({ id, input }) => {
+  static update = async ({ id, input }) => {
     const productByIndex = products.findIndex(
       (product) => product.id === parseInt(id)
     );
