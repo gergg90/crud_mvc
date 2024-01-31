@@ -1,9 +1,4 @@
 import { Router } from "express";
-import {
-  validatePartialProduct,
-  validateProduct,
-} from "../schema/productSchema.js";
-import { ProductModel } from "../models/product.js";
 import { ProductController } from "../controller/product.js";
 
 export const productRouter = Router();

@@ -1,6 +1,6 @@
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
-const products = require("../products.json");
+const products = require("../../products.json");
 
 export class ProductModel {
   static getAll = async ({ category }) => {
