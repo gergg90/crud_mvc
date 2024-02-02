@@ -1,7 +1,3 @@
-
-# Deploy  app.fl0
-Api desplegada en servicio gratuito [app.fl0.com](https://crud-products-mvc-dev-jqfg.2.us-1.fl0.io)
-
 <hr>
 
 ![](https://www.sohamkamani.com/nodejs/expressjs-architecture/express-routing-logo.png)
